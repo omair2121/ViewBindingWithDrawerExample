@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //now remove every findViewById and access with binding object
 //        val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(binding.appBar.toolbar)
-//changing same file //from master
+//changing same file //from other
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
         binding.appBar.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
