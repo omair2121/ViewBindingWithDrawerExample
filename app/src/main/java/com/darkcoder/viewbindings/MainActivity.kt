@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 //some other words which do not match
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
         binding.appBar.fab.setOnClickListener { view ->
-            Snackbar.make(view, "some other text ", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "master", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
 //        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
