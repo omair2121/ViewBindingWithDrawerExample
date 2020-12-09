@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBar.toolbar)
 //some other words which do not match
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
-        binding.appBar.fab.setOnClickListener { view ->
+        binding.appBar.fab.setOnClickListener { view1 ->
             Snackbar.make(view, "some other text ", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
