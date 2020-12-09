@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 //changing same file //from other
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
         binding.appBar.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "test 1", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
 //        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
