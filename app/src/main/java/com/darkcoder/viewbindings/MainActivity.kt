@@ -26,10 +26,9 @@ class MainActivity : AppCompatActivity() {
         //now remove every findViewById and access with binding object
 //        val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(binding.appBar.toolbar)
-//some other words which do not match
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
         binding.appBar.fab.setOnClickListener { view ->
-            Snackbar.make(view, "some other text ", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Test 1", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
 //        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
