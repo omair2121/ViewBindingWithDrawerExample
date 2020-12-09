@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBar.toolbar)
 //        val fab: FloatingActionButton = findViewById(R.id.fab)
         binding.appBar.fab.setOnClickListener { view1 ->
-            Snackbar.make(view1, "Test 1", Snackbar.LENGTH_LONG)
+            Snackbar.make(view1, "master 1", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
 //        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
